@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- In this we are adding text with paerticular html tags using dom -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Namaste React</title>
+</head>
+
+<body>
+    <div id="root">
+
+    </div>
+    <script>
+        const p = document.createElement('p')
+        p.innerHTML = "Hello i am p"
+        const root = document.getElementById("root")
+        root.appendChild(p)
+    </script>
+</body>
+
+</html>
