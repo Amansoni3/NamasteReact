@@ -2,8 +2,10 @@
   "name": "inception",
   "version": "1.0.0",
   "description": "This is namaste react learning from akshay saini",
-  "main": "App.js",
+ 
   "scripts": {
+    "start" : "parcel GettingReact.html",
+    "build" : "parcel build GettingReact.html",
     "test": "jest"
   },
   "author": "",
